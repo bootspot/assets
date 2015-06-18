@@ -33,13 +33,13 @@ g.parentNode.insertBefore(a, g)
 }; b;) i(c[--b])
 };
 var scripts = [];
-scripts[0] = 'https://cdn.rawgit.com/bootspot/assets/master/bootstrap.slatev2.3.2.0.min.css';
+scripts[0] = '//cdn.rawgit.com/bootspot/assets/master/bootstrap.slatev2.3.2.0.min.css';
 $L(scripts, function() {
 document.getElementsByClassName("animation")[0].style.display = "block";
 document.body.style.backgroundImage = 'none';
 h = document.createElement("script"),
 h.type = "text/javascript",
-h.src = "https://cdn.rawgit.com/bootspot/assets/master/scripts.js",
+h.src = "cdn.rawgit.com/bootspot/assets/master/scripts.js",
 c = document.getElementsByTagName("script")[0],
 c.parentNode.insertBefore(h, c);
 });
